@@ -6,12 +6,11 @@ public class ReverseNumber {
         System.out.println("Enter number");
 
         int num = sc.nextInt();
-      //  int newnum=num;
-        int rem =0;
         int rev=0;
         while (num > 0) {
+            int rem ;
             rem=num%10;
-           num=num/10;
+            num /= 10;
            rev=(rev*10)+rem;
         }
         System.out.println(rev);
