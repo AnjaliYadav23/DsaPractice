@@ -8,8 +8,9 @@ public class CheckStringPalindrome {
         for(int i=str.length()-1;i>=0;i--){
            ab.append(str.charAt(i));
         }
-        System.out.println(ab.toString());
-        if(ab.toString().equals(str)){
+        String reversed = ab.toString();
+        System.out.println(reversed);
+        if(reversed.equals(str)){
             System.out.println("Palindrome") ;
         }
         else{
