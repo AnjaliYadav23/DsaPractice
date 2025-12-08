@@ -1,7 +1,7 @@
 package com.javacoding;
 
 public class ReverseString {
-    public static void main (String args[]){
+    public static void main (String[] args){
         String str= "Madam";
         str=str.toLowerCase();
         String Reversed=" ";
